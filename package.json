@@ -1,0 +1,22 @@
+{
+  "name": "@jestaubach/prettier-config",
+  "version": "0.0.1",
+  "description": "Shared prettier configuration",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "prettier": "./index.js",
+  "eslintConfig": {
+    "extends": "@jestaubach/eslint-config"
+  },
+  "devDependencies": {
+    "@jestaubach/eslint-config": "^0.0.1",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0"
+  },
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
+}
